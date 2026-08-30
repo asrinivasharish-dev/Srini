@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <!-- Document Shape -->
+  <path d="M160 110 H300 L380 190 V400 C380 415 368 428 352 428 H160 C144 428 132 415 132 400 V138 C132 122 144 110 160 110 Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Folded Corner -->
+  <path d="M300 110 V174 C300 183 307 190 316 190 H380 Z" fill="#CBD5E1"/>
+  <!-- PDF Accent Badge -->
+  <rect x="110" y="240" width="180" height="70" rx="14" fill="url(#badgeGrad)"/>
+  <text x="200" y="288" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="38" text-anchor="middle" letter-spacing="1">PDF</text>
+  <!-- Accent Lines -->
+  <rect x="160" y="340" width="190" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="160" y="370" width="130" height="12" rx="6" fill="#CBD5E1"/>
+</svg>

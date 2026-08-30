@@ -1,0 +1,10 @@
+{
+  "name": "Remix PDF \u0026 Doc Manager",
+  "description": "Android mobile PDF studio with QR code scanning to import URLs & text into PDF, batch image/document conversion, AES-256 password protection & permission controls, visual editing, sticky notes, annotations, forms, compression, and Gemini AI OCR.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

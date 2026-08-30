@@ -1,0 +1,26 @@
+{
+  "name": "Remix PDF & Doc Manager",
+  "short_name": "Remix PDF",
+  "description": "Android mobile PDF studio with QR scanner, AES-256 security, visual editing, compression, and Gemini AI OCR.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#090A0F",
+  "theme_color": "#0F1115",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"]
+}
